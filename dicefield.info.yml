@@ -2,8 +2,6 @@ name: Dice field
 type: module
 description: A way of specifying a dice value such as 1d6 or 2d8+3.
 package: Field types
-version: 1.0
-core: 8.x
-
+core_version_requirement: ^9.4 || ^10
 dependencies:
   - field
